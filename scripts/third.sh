@@ -1,8 +1,8 @@
 #!/bin/bash
 #If-then stmt program
-echo "Enter first number :"
+echo "Enter first number : $1"
 read a
-echo "Enter second number :"
+echo "Enter second number : $2"
 read b
 if [ $a -eq $b ]
 then 
