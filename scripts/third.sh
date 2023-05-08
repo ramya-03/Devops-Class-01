@@ -1,10 +1,10 @@
 #!/bin/bash
 #If-then stmt program
 echo "Enter first number :"
-read a
+#read a
 echo "Enter second number :"
-read b
-if [ $a -eq $b ]
+#read b
+if [ $1 -eq $2 ]
 then 
 	echo "Both variables are same"
 else
