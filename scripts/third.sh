@@ -1,9 +1,9 @@
 #!/bin/bash
 #If-then stmt program
 echo "Enter first number :"
-#read a
+read 1
 echo "Enter second number :"
-#read b
+read 2
 if [ $1 -eq $2 ]
 then 
 	echo "Both variables are same"
